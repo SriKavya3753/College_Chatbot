@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configure models
-genai.configure(api_key="AIzaSyBgndmpUIay-E7vWzr4kQK0RXisCjbg9T8")
+genai.configure(api_key="")
 gemini = genai.GenerativeModel('gemini-1.5-flash')
 embedder = SentenceTransformer('all-MiniLM-L6-v2')  # Embedding model
 
