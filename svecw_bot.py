@@ -58,8 +58,8 @@ def load_data():
 df, faiss_index = load_data()
 
 # App Header
-st.markdown('<h1 class="college-font">🏫 SVCEW College Chatbot</h1>', unsafe_allow_html=True)
-st.markdown('<h3 class="college-font">Your Guide to SVCEW College Information</h3>', unsafe_allow_html=True)
+st.markdown('<h1 class="college-font">🏫 SVECW College Chatbot</h1>', unsafe_allow_html=True)
+st.markdown('<h3 class="college-font">Your Guide to SVECW College Information</h3>', unsafe_allow_html=True)
 st.markdown("---")
 
 # Function to find the closest matching question using FAISS
